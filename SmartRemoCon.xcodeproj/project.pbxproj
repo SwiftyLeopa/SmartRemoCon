@@ -13,6 +13,9 @@
 		326B383724CEE8A500E5F433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326B383624CEE8A500E5F433 /* Assets.xcassets */; };
 		326B383A24CEE8A500E5F433 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326B383924CEE8A500E5F433 /* Preview Assets.xcassets */; };
 		326B383D24CEE8A500E5F433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326B383B24CEE8A500E5F433 /* LaunchScreen.storyboard */; };
+		326B384524CF149B00E5F433 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B384424CF149B00E5F433 /* HomeView.swift */; };
+		326B384724CF14AC00E5F433 /* AirConView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B384624CF14AC00E5F433 /* AirConView.swift */; };
+		326B384924CF14CA00E5F433 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B384824CF14CA00E5F433 /* LightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		326B383924CEE8A500E5F433 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		326B383C24CEE8A500E5F433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		326B383E24CEE8A500E5F433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326B384424CF149B00E5F433 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		326B384624CF14AC00E5F433 /* AirConView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConView.swift; sourceTree = "<group>"; };
+		326B384824CF14CA00E5F433 /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				326B383024CEE89F00E5F433 /* AppDelegate.swift */,
 				326B383224CEE89F00E5F433 /* SceneDelegate.swift */,
 				326B383424CEE89F00E5F433 /* ContentView.swift */,
+				326B384424CF149B00E5F433 /* HomeView.swift */,
+				326B384624CF14AC00E5F433 /* AirConView.swift */,
+				326B384824CF14CA00E5F433 /* LightView.swift */,
 				326B383624CEE8A500E5F433 /* Assets.xcassets */,
 				326B383B24CEE8A500E5F433 /* LaunchScreen.storyboard */,
 				326B383E24CEE8A500E5F433 /* Info.plist */,
@@ -146,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326B384724CF14AC00E5F433 /* AirConView.swift in Sources */,
+				326B384924CF14CA00E5F433 /* LightView.swift in Sources */,
 				326B383124CEE89F00E5F433 /* AppDelegate.swift in Sources */,
+				326B384524CF149B00E5F433 /* HomeView.swift in Sources */,
 				326B383324CEE89F00E5F433 /* SceneDelegate.swift in Sources */,
 				326B383524CEE89F00E5F433 /* ContentView.swift in Sources */,
 			);
@@ -289,6 +301,7 @@
 				DEVELOPMENT_TEAM = 2MK59YP7FU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SmartRemoCon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				DEVELOPMENT_TEAM = 2MK59YP7FU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SmartRemoCon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
